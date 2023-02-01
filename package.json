@@ -1,0 +1,79 @@
+{
+  "name": "react-typescript-material",
+  "version": "2.0.15",
+  "description": "_DESCRIPTION_",
+  "author": {
+    "name": "Anton Karpenko",
+    "email": "i@karpolan.com",
+    "url": "https://karpolan.com"
+  },
+  "private": true,
+  "keywords": [
+    "react",
+    "typescript",
+    "material",
+    "mui"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "put your repo url here..."
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "dev": "npm i && react-scripts start",
+    "format": "prettier ./src --write",
+    "format:all": "prettier . --write",
+    "lint": "eslint ./src --ext .js,.ts,.tsx",
+    "type": "tsc",
+    "test": "react-scripts test"
+  },
+  "dependencies": {
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "latest",
+    "@mui/material": "latest",
+    "@reduxjs/toolkit": "^1.9.1",
+    "@tabler/icons": "^1.119.0",
+    "crypto-js": "^4.1.1",
+    "date-fns": "latest",
+    "moment": "^2.29.4",
+    "notistack": "^2.0.8",
+    "react": "latest",
+    "react-apexcharts": "^1.4.0",
+    "react-cookie": "^4.1.1",
+    "react-dom": "latest",
+    "react-perfect-scrollbar": "^1.5.8",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "latest",
+    "react-scripts": "latest",
+    "validate.js": "latest",
+    "web-vitals": "latest"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "latest",
+    "@testing-library/react": "latest",
+    "@testing-library/user-event": "latest",
+    "@tsconfig/create-react-app": "latest",
+    "@types/crypto-js": "^4.1.1",
+    "@types/jest": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/react-router-dom": "latest",
+    "prettier": "latest",
+    "typescript": "latest"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
